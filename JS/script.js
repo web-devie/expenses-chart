@@ -1,5 +1,5 @@
 "use strict";
-import dataArr from "../data.json" assert { type: "json" };
+// import dataArr from "../data.json" assert { type: "json" };
 
 const dayArr = [];
 const day = whatDay(dataArr);

@@ -28,16 +28,3 @@ const dataArr = [
     amount: 25.48,
   },
 ];
-
-// const [one] = dataArr;
-// console.log(one);
-// const { day } = one;
-// console.log(day);
-// const dayArr = [];
-
-// console.log(dayArr);
-
-// const day = dayArr[new Date().getDay()];
-// console.log(day);
-
-// console.log(day);
