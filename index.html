@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./CSS/general.css" />
+    <link rel="stylesheet" href="./CSS/styles.css" />
+
+    <title>Expenses chart component</title>
+  </head>
+  <body>
+    <div class="expenses-box">
+      <!-- Top Box -->
+      <div class="top-bar">
+        <div class="left">
+          <p class="balance--text">My balance</p>
+          <p class="balance--amt">$921.48</p>
+        </div>
+        <div class="right">
+          <img src="./images/logo.svg" alt="logo of two circles intersecting" />
+        </div>
+      </div>
+
+      <!-- Bottom Box -->
+      <div class="bottom-box">
+        <h1 class="heading-primary">Spending &ndash; Last 7 days</h1>
+        <!-- Run time chart data -->
+        <div class="chart-box"></div>
+        <div class="summary-box">
+          <div class="summary-box--left">
+            <p class="summary--desc">Total this month</p>
+            <p class="summary--total-amt">$478.33</p>
+          </div>
+          <div class="summary-box--right">
+            <p class="spent--percent">+2.4%</p>
+            <p class="spent--month-compare">from last month</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="./JS/script.js"></script>
+    <!-- <script src="./JS/dummy.js"></script> -->
+  </body>
+</html>

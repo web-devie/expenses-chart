@@ -1,0 +1,159 @@
+/* *******************
+---Balance Section ---
+***********************/
+
+.top-bar {
+  width: 40rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10rem;
+  background-color: hsl(10, 79%, 65%);
+  padding: 1.6rem 2rem;
+  border-radius: 11px;
+  color: hsl(33, 100%, 98%);
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.balance--text {
+  color: hsl(27, 66%, 92%);
+  font-size: 1.25rem;
+}
+.balance--amt {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+.right {
+  width: 15%;
+}
+.right img {
+  width: 100%;
+}
+
+/* Functional Chart CSS code */
+/* .chart-box {
+  margin: 20rem;
+} */
+
+/***********************
+--- Spending Section ---
+***********************/
+.bottom-box {
+  width: 40rem;
+  background-color: #fff;
+  padding: 2.4rem;
+  border-radius: 11px;
+}
+.chart-box {
+  padding: 4.8rem 0 3rem;
+}
+.chart-div {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-end;
+}
+
+.chart {
+  /* font-family: "DM Sans", sans-serif; */
+  width: 3.5rem;
+  /* height: 5rem; */
+  border-radius: 3px;
+  background-color: hsl(10, 79%, 65%);
+  cursor: pointer;
+  position: relative;
+}
+
+.chart span {
+  position: absolute;
+  top: -35px;
+  left: -12px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  background-color: hsl(25, 47%, 15%);
+  color: hsl(27, 66%, 92%);
+  padding: 0.65rem;
+  border-radius: 3px;
+  display: none;
+}
+
+.chart:hover {
+  background-color: hsla(10, 79%, 65%, 0.731);
+}
+.chart-hover span {
+  display: block;
+}
+.chart--active {
+  background-color: hsl(186, 34%, 60%);
+}
+.chart--active:hover {
+  background-color: hsla(186, 34%, 60%, 0.74);
+}
+
+.day-div {
+  margin: 1rem 0 0 0.3rem;
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  font-size: 1.4rem;
+  color: hsl(28, 10%, 53%);
+}
+
+.wed-ele,
+.thu-ele {
+  margin-left: -3px;
+}
+.sat-ele {
+  margin-left: 10px;
+}
+
+/*--- Summary Box ---*/
+.summary-box {
+  border-top: 1px solid hsla(28, 10%, 53%, 0.35);
+  padding: 2.4rem 0 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.summary-box--left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.summary--desc {
+  font-size: 1.2rem;
+  color: hsl(28, 10%, 53%);
+}
+
+.summary--total-amt {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: hsl(25, 47%, 15%);
+}
+
+.summary-box--right {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin-top: 1rem;
+  /* align-self: flex-end; */
+}
+.spent--percent {
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-align: right;
+  color: hsl(25, 47%, 15%);
+}
+.spent--month-compare {
+  font-size: 1.2rem;
+  color: hsl(28, 10%, 53%);
+}
+
+@media (max-width: 28.125em) {
+  html {
+    font-size: 56.25%;
+  }
+}
